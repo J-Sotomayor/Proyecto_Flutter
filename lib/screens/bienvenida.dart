@@ -13,6 +13,7 @@ class BienvenidaPage extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
+        
         child: Center(
           child: ClipRRect(
             borderRadius: BorderRadius.circular(30),

@@ -35,7 +35,7 @@ class DescripcionPage extends StatelessWidget {
                   imagePath: 'assets/images/usuario.jpg',
                   buttonText: 'Continuar',
                   buttonAction: () {
-                    Navigator.pushNamed(context, '/opciones');
+                    Navigator.pushNamed(context, '/categorias');
                   },
                 ),
                 SizedBox(height: 20),

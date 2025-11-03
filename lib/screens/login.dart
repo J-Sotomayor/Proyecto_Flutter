@@ -65,7 +65,7 @@ class LoginPage extends StatelessWidget {
                     SizedBox(height: 20),
                     ElevatedButton(
                       onPressed: () {
-                        Navigator.pushNamed(context, '/opciones'); // ejemplo
+                        Navigator.pushReplacementNamed(context, '/descripcion');
                       },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.black,

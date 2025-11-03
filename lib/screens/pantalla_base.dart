@@ -14,7 +14,7 @@ class PantallaBase extends StatelessWidget {
             accountName: Text("John Sotomayor"),
             accountEmail: Text("jbc.sotomayor@yavirac.edu.ec"),
             currentAccountPicture: CircleAvatar(
-              backgroundImage: AssetImage('assets\images\usuario.jpg'),
+              backgroundImage: AssetImage('assets/images/usuario.jpg'),
             ),
             decoration: BoxDecoration(color: Color.fromARGB(255, 154, 81, 175)),
           ),
